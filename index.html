@@ -114,6 +114,7 @@
     <div class="filter">
         <button onclick="filterProducts('all')">Todos</button>
         <button onclick="filterProducts('camping')">Camping</button>
+        <button onclick="filterProducts('trekking')">Camping</button>
         <button onclick="filterProducts('hiking')">Hiking</button>
     </div>
 
@@ -138,7 +139,7 @@
                 "descripcion": "Mochila cómoda y resistente, con múltiples compartimentos y soporte lumbar.",
                 "precio": "$39.990",
                 "imagen": "https://via.placeholder.com/250x150",
-                "categoria": "hiking",
+                "categoria": ["hiking"],
                 "whatsapp": "https://wa.me/56971075720?text=Hola,%20quiero%20comprar%20la%20Mochila%2040L"
             },
             {
@@ -146,7 +147,7 @@
                 "descripcion": "Botella de acero inoxidable, mantiene tus bebidas calientes o frías por horas.",
                 "precio": "$9.990",
                 "imagen": "https://via.placeholder.com/250x150",
-                "categoria": "camping",
+                "categoria": ["camping"],
                 "whatsapp": "https://wa.me/56971075720?text=Hola,%20quiero%20comprar%20la%20Botella%20térmica"
             }
         ];
@@ -173,7 +174,7 @@
             if(categoria === 'all') {
                 displayProducts(productos);
             } else {
-                const filtered = productos.filter(p => p.categoria === categoria);
+                const filtered = productos.filter(p => p.categorias.includes(categoria));
                 displayProducts(filtered);
             }
         }
