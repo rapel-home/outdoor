@@ -1,0 +1,26 @@
+[
+  {
+    "nombre": "Mochila Lippi",
+    "descripcion": "Mochila B-Light 10l Daypack",
+    "precio": "$30.990",
+    "imagen": "imagenes/mochila_lippi.jpg",
+    "categorias": ["trekking", "camping"],
+    "whatsapp": "https://wa.me/56971075720?text=Hola,%20quiero%20comprar%20Mochila%20B-Light%2010l%20Daypack%20valor%20$30.990"
+  },
+  {
+    "nombre": "Mochila 40L",
+    "descripcion": "Mochila cómoda y resistente, con múltiples compartimentos y soporte lumbar.",
+    "precio": "$39.990",
+    "imagen": "https://via.placeholder.com/250x150",
+    "categorias": ["hiking"],
+    "whatsapp": "https://wa.me/56971075720?text=Hola,%20quiero%20comprar%20la%20Mochila%2040L"
+  },
+  {
+    "nombre": "Botella térmica",
+    "descripcion": "Botella de acero inoxidable, mantiene tus bebidas calientes o frías por horas.",
+    "precio": "$9.990",
+    "imagen": "https://via.placeholder.com/250x150",
+    "categorias": ["camping"],
+    "whatsapp": "https://wa.me/56971075720?text=Hola,%20quiero%20comprar%20la%20Botella%20térmica"
+  }
+]
