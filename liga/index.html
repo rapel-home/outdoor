@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liga de Fútbol</title>
+  <style>
+    body { font-family: 'Roboto', sans-serif; margin:0; background:#f4f4f4; color:#333; }
+    header { background:#0D47A1; color:white; padding:20px; text-align:center; }
+    nav { background:#1565C0; display:flex; justify-content:center; }
+    nav a { color:white; padding:15px 20px; text-decoration:none; font-weight:bold; }
+    nav a:hover { background:#0D47A1; }
+    section { max-width:1000px; margin:40px auto; background:white; padding:20px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.1); }
+    h2 { color:#0D47A1; border-bottom:2px solid #eee; padding-bottom:10px; }
+    table { width:100%; border-collapse:collapse; margin-top:15px; }
+    th, td { padding:12px; border-bottom:1px solid #ddd; text-align:center; }
+    tr:nth-child(even) { background:#f9f9f9; }
+    footer { background:#0D47A1; color:white; text-align:center; padding:15px; margin-top:30px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🏆 Liga de Fútbol Amateur</h1>
+  </header>
+
+  <nav>
+    <a href="#posiciones">Posiciones</a>
+    <a href="#goleadores">Goleadores</a>
+    <a href="#estadisticas">Estadísticas</a>
+    <a href="#fixture">Fixture</a>
+    <a href="#resultados">Resultados</a>
+    <a href="#encuentros">Encuentros</a>
+  </nav>
+
+  <section id="posiciones">
+    <h2>Tabla de Posiciones</h2>
+    <table>
+      <tr><th>#</th><th>Equipo</th><th>PTS</th><th>PJ</th><th>PG</th><th>PE</th><th>PP</th><th>GF</th><th>GC</th></tr>
+      <tr><td>1</td><td>Leones FC</td><td>18</td><td>7</td><td>6</td><td>0</td><td>1</td><td>20</td><td>8</td></tr>
+      <tr><td>2</td><td>Tigres</td><td>16</td><td>7</td><td>5</td><td>1</td><td>1</td><td>17</td><td>9</td></tr>
+    </table>
+  </section>
+
+  <section id="goleadores">
+    <h2>Goleadores</h2>
+    <table>
+      <tr><th>Jugador</th><th>Equipo</th><th>Goles</th></tr>
+      <tr><td>Carlos Pérez</td><td>Leones FC</td><td>8</td></tr>
+      <tr><td>José Díaz</td><td>Tigres</td><td>7</td></tr>
+    </table>
+  </section>
+
+  <section id="estadisticas">
+    <h2>Estadísticas Generales</h2>
+    <ul>
+      <li>Partidos jugados: 20</li>
+      <li>Goles convertidos: 55</li>
+      <li>Promedio de goles: 2.75</li>
+      <li>Equipo más goleador: Leones FC (20)</li>
+    </ul>
+  </section>
+
+  <section id="fixture">
+    <h2>Fixture</h2>
+    <table>
+      <tr><th>Fecha</th><th>Partido</th></tr>
+      <tr><td>05/10</td><td>Leones FC vs Tigres</td></tr>
+      <tr><td>06/10</td><td>Águilas vs Lobos</td></tr>
+    </table>
+  </section>
+
+  <section id="resultados">
+    <h2>Resultados Recientes</h2>
+    <table>
+      <tr><th>Partido</th><th>Resultado</th></tr>
+      <tr><td>Leones FC vs Lobos</td><td>3 - 1</td></tr>
+      <tr><td>Tigres vs Águilas</td><td>2 - 2</td></tr>
+    </table>
+  </section>
+
+  <section id="encuentros">
+    <h2>Próximos Encuentros</h2>
+    <table>
+      <tr><th>Fecha</th><th>Partido</th></tr>
+      <tr><td>10/10</td><td>Lobos vs Tigres</td></tr>
+      <tr><td>11/10</td><td>Leones FC vs Águilas</td></tr>
+    </table>
+  </section>
+
+  <footer>
+    ⚽ Liga Amateur | Desarrollado para GitHub Pages
+  </footer>
+</body>
+</html>
